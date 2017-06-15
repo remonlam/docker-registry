@@ -1,7 +1,7 @@
 FROM containerstack/alpine:3.5.2
 MAINTAINER Remon Lam [remon@containerstack.io]
 
-ENV REGISTRY_VERSION=2.6.1
+ENV REGISTRY_VERSION=2.6.0
 
 RUN set -ex && \
     apk add --no-cache ca-certificates apache2-utils && \
