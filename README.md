@@ -6,7 +6,7 @@ regarding contributing and issues.
 
 ## Run a local registry: Quick Version
 
-$ docker run -d -p 5000:5000 --restart always --name registry registry:2.6.1
+$ docker run -d -p 5000:5000 --restart always --name registry -v [/localpath/registry]:/var/lib/registry remonlam/registry:2.6.1
 
 Now, use it from within Docker:
 
